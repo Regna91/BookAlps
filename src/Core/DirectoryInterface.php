@@ -2,7 +2,7 @@
 
 namespace BookAlps\Core;
 
-interface FolderInterface
+interface DirectoryInterface
 {
     public function getRelativePath(): string;
 
